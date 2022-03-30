@@ -1,0 +1,217 @@
+.jw-svg-icon-fullscreen-on path {
+    display: none;
+}
+
+.jw-svg-icon-fullscreen-on {
+    background-image: url("https://i.imgur.com/YGUvxOC.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.jw-icon-fullscreen:hover .jw-svg-icon-fullscreen-on {
+    background-image: url("https://i.imgur.com/YGUvxOC.png");
+}
+
+.jw-svg-icon-fullscreen-off path {
+    display: none;
+}
+
+.jw-svg-icon-fullscreen-off {
+    background-image: url("https://i.imgur.com/4szZ4z0.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.jw-icon-fullscreen:hover .jw-svg-icon-fullscreen-off {
+    background-image: url("https://i.imgur.com/4szZ4z0.png");
+}
+
+.jw-svg-icon-settings path {
+    display: none;
+}
+
+.jw-svg-icon-settings {
+    background-image: url("https://i.imgur.com/bDQFzTr.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.jw-icon-settings:hover .jw-svg-icon-settings {
+    background-image: url("https://i.imgur.com/bDQFzTr.png");
+}
+
+.jw-svg-icon-rewind path {
+    display: none;
+}
+
+.jw-svg-icon-rewind {
+    background-image: url("https://i.imgur.com/vYU11T5.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.jw-icon-rewind:hover .jw-svg-icon-rewind {
+    background-image: url("https://i.imgur.com/TKdXuJ5.png");
+}
+
+.jw-state-idle .jw-svg-icon-play path {
+    display: none;
+}
+
+.jw-state-idle .jw-svg-icon-play {
+    background-image: url("https://i.imgur.com/cEl8oQS.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.jw-state-idle .jw-display-icon-container:hover .jw-svg-icon-play {
+    background-image: url("https://i.imgur.com/cEl8oQS.png");
+}
+
+.jw-state-paused .jw-svg-icon-play path {
+    display: none;
+}
+
+.jw-state-paused .jw-svg-icon-play {
+    background-image: url("https://i.imgur.com/cEl8oQS.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.jw-svg-icon-error path {
+    display: none;
+}
+
+.jw-svg-icon-error {
+    background-image: url("/assets/icon/error.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.jw-state-paused .jw-icon-playback:hover .jw-svg-icon-play {
+    background-image: url("https://i.imgur.com/cEl8oQS.png");
+}
+
+.jw-svg-icon-pause path {
+    display: none;
+}
+
+.jw-svg-icon-pause {
+    background-image: url("https://i.imgur.com/E4XcMhq.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.jw-icon-playback:hover .jw-svg-icon-pause {
+    background-image: url("https://i.imgur.com/E4XcMhq.png");
+}
+
+.jw-svg-icon-buffer path {
+    display: none;
+}
+
+.jw-svg-icon-buffer {
+    background-image: url('/assets/icon/loading.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.jw-svg-icon-close path {
+    display: none;
+}
+
+.jw-svg-icon-close {
+    background-image: url('/assets/icon/cancel.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.jw-svg-icon-replay path {
+    display: none;
+}
+
+.jw-svg-icon-replay {
+    background-image: url('/assets/icon/replay.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.jw-svg-icon-volume-0 path {
+    display: none;
+}
+
+.jw-svg-icon-volume-0 {
+    background-image: url('/assets/icon/mute.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.jw-svg-icon-volume-50 path {
+    display: none;
+}
+
+.jw-svg-icon-volume-50 {
+    background-image: url('/assets/icon/volume-up.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.jw-svg-icon-volume-100 path {
+    display: none;
+}
+
+.jw-svg-icon-volume-100 {
+    background-image: url('/assets/icon/volume-up100.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.pop-wrap {
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.pop-main {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.pop-html {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.pop-block {
+    display: inline-block;
+    position: relative;
+}
+
+.myConfirm {
+    max-width: 260px;
+    max-height: 160px;
+    padding: 3px;
+    padding-bottom: 0px;
+    border-radius: 3px;
+    font-size: 14px;
+    line-height: 1.3em;
+    background-color: #333333;
+    color: #f2f2f2;
+}
+
+.button_resume {
+    border-width: 0;
+    padding: 5px 15px;
+    line-height: 1.5;
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-size: 80%;
+    font-weight: 700;
+    margin: 5px 5px 5px 0;
+    cursor: pointer;
+    outline: none;
+    background-color: #565656;
+    color: #ffffff;
+}
